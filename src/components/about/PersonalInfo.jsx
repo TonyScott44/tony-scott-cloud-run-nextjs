@@ -4,7 +4,7 @@ const personalInfoContent = [
   { meta: "first name", metaInfo: "Anthony", hasColor: "" },
   { meta: "last name", metaInfo: "Scott", hasColor: "" },
   { meta: "Availability", metaInfo: "Open To Work", hasColor: "green" },
-  { meta: "Email", metaInfo: "tonyscottii.dev@gmail.com", hasColor: "" },
+  { meta: "Email", metaInfo: "acsii@me.com", hasColor: "" },
 ];
 
 const PersonalInfo = () => {
