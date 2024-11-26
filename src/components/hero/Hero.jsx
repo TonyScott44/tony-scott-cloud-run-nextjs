@@ -9,8 +9,8 @@ const heroContent = {
   heroImage: "/assets/img/hero/dark.jpg",
   heroMobileImage: heroImgMobile,
   heroTitleName: "Tony Scott",
-  heroDesignation: "Software Engineer",
-  heroDescriptions: `I'm an Atlanta-based full stack web developer dedicated to building intuitive, high-performance applications that elevate user experiences. I’m passionate about crafting solutions that not only meet but exceed user expectations, driving impactful, positive change through clean, effective code.`,
+  heroDesignation: "Software Engineering Manager",
+  heroDescriptions: `Software Engineering Manager dedicated to leading full-stack product teams to deliver transformative results. I excel in driving operational excellence, optimizing system architecture for scalability and efficiency, and achieving measurable cost savings. With a relentless focus on innovation, team empowerment, and strategic impact, I build high-performing teams that deliver world-class products and solutions.`,
   heroBtn: "more about me",
 };
 
