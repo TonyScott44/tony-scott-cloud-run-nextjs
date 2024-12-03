@@ -36,7 +36,7 @@ const experienceContent = [
     details: `Engineered and optimized TPF software applications by converting business requirements into robust technical designs on IBM TPF mainframe systems. Authored efficient code in C++, BAL, and SabreTalk, and developed schemas for IBM DB2 databases, ensuring high performance, system reliability, and data integrity. Resolved technical issues promptly and delivered consistent support, ensuring all problem reports were followed up to completion. `,
   },
   {
-    year: "FEB 2021 - NOV 2021",
+    year: "SEP 2012 - DEC 2012",
     position: "Intern, Software Engineer, Enterprise Architecture",
     compnayName: "Travelport",
     details: `Designed and developed a Process Viewing Environment (PVE) for Travelport’s Enterprise Architecture team using Microsoft SharePoint, with custom C#, JavaScript, HTML, and CSS code, to create a central collaboration hub for Business Process Management and a comprehensive training resource for enterprise architects.`,
