@@ -2,6 +2,13 @@ import React from "react";
 
 const experienceContent = [
   {
+    year: "JAN 2025 - PRESENT",
+    position: "Senior Engineering Manager, Azure CXP",
+    compnayName: "Microsoft",
+    details: ``
+    ,
+  },
+  {
     year: "MAY 2018 - NOV 2018",
     position: "Engineering Manager II, Audience Growth",
     compnayName: "Spotify",
