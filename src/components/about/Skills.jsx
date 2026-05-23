@@ -1,14 +1,16 @@
 import React from "react";
 
 const skillsContent = [
-  { skillClass: "p75", skillPercent: "75", skillName: "NODE.JS" },
-  { skillClass: "p85", skillPercent: "85", skillName: "JAVASCRIPT" },
-  { skillClass: "p45", skillPercent: "45", skillName: "TYPESCRIPT" },
-  { skillClass: "p65", skillPercent: "65", skillName: "REACT" },
-  { skillClass: "p40", skillPercent: "40", skillName: "NEXT.JS" },
-  { skillClass: "p60", skillPercent: "60", skillName: "C++ (IBM zTPF)" },
-  { skillClass: "p80", skillPercent: "80", skillName: "HTML" },
-  { skillClass: "p75", skillPercent: "75", skillName: "CSS" },
+  { skillClass: "p85", skillPercent: "85", skillName: "AZURE CLOUD"},
+  { skillClass: "p90", skillPercent: "90", skillName: "AGENTIC CODING CLIS + TOOLS (EX. CLAUDE, COPILOT, CODEX)" },
+  { skillClass: "p75", skillPercent: "75", skillName: "C# + .NET" },
+  { skillClass: "p85", skillPercent: "85", skillName: "NODE.JS" },
+  { skillClass: "p90", skillPercent: "90", skillName: "JAVASCRIPT" },
+  { skillClass: "p85", skillPercent: "85", skillName: "TYPESCRIPT" },
+  { skillClass: "p85", skillPercent: "85", skillName: "REACT" },
+  { skillClass: "p75", skillPercent: "75", skillName: "NEXT.JS" },
+  { skillClass: "p95", skillPercent: "95", skillName: "HTML + CSS" },
+  { skillClass: "p70", skillPercent: "70", skillName: "C++ (IBM zTPF)" },
 ];
 
 const Skills = () => {
