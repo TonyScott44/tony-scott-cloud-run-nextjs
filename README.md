@@ -1,34 +1,108 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tony Scott Portfolio
+
+This repository contains the source code for Tony Scott's personal portfolio website. The site is built with Next.js and presents professional background, leadership experience, technical skills, selected work, contact details, and resume links in a responsive web experience.
+
+## Purpose
+
+The portfolio is intended to serve as a central online presence for:
+
+- Highlighting software engineering and engineering leadership experience.
+- Presenting current focus areas such as cloud-scale distributed systems, AI-powered platforms, Azure, full-stack engineering, and developer productivity.
+- Sharing career history across Microsoft, Spotify, Twitter, Delta Air Lines, and Travelport.
+- Providing a downloadable CV/resume link.
+- Showcasing portfolio projects and professional contact information.
+
+## Tech Stack
+
+- **Framework:** Next.js 14
+- **UI:** React 18, Bootstrap, Sass
+- **Styling:** SCSS modules and custom theme assets under `public/assets/scss`
+- **Animations and UI libraries:** AOS, React Slick, React Tabs, React Modal, React Toastify
+- **Deployment-ready container:** Dockerfile for production builds, suitable for Cloud Run or other container platforms
+
+## Project Structure
+
+```text
+src/
+  components/
+    about/        Resume, skills, education, achievements, and personal info sections
+    blog/         Blog section components
+    hero/         Homepage hero content
+    portfolio/    Portfolio items and modal details
+    switch/       Theme switch components
+  Context/        React context provider
+  Hooks/          Shared content/data hooks
+  layout/         Shared page wrapper
+  pages/          Next.js page routes
+  styles/         Global SCSS entry point
+public/
+  assets/         Images, fonts, and SCSS theme files
+utils/            Theme utilities
+```
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in a browser.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Available Scripts
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+npm run dev      # Start the local development server
+npm run build    # Build the production application
+npm run start    # Start the production server
+npm run lint     # Run Next.js linting
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Content Updates
 
-## Learn More
+Most site content is maintained directly in React component data structures:
 
-To learn more about Next.js, take a look at the following resources:
+- Hero introduction: `src/components/hero/Hero.jsx`
+- Experience timeline: `src/components/about/Experience.jsx`
+- Skills list: `src/components/about/Skills.jsx`
+- Education: `src/components/about/Education.jsx`
+- Personal information: `src/components/about/PersonalInfo.jsx`
+- Portfolio entries: `src/components/portfolio/portfolioData.js`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Static images and theme assets are stored in `public/assets`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Docker
 
-## Deploy on Vercel
+Build the production container:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+docker build -t tony-scott-portfolio .
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Run it locally:
+
+```bash
+docker run -p 3000:3000 tony-scott-portfolio
+```
+
+The container exposes port `3000` and runs `npm start` against the optimized Next.js build.
+
+## Deployment
+
+The included Dockerfile makes the app suitable for container-based hosting such as Google Cloud Run. A typical deployment flow is:
+
+1. Build the Next.js production app.
+2. Package it into the Docker image.
+3. Push the image to a container registry.
+4. Deploy the image to Cloud Run or another container platform.
+
+## License
+
+This is a personal portfolio project. All resume content, images, and branding should be treated as personal/proprietary unless otherwise stated.
