@@ -5,7 +5,7 @@ import Image from "next/image";
 const heroContent = {
   heroImage: "/assets/img/hero/dark.jpg",
   heroMobileImage: heroImgMobile,
-  heroTitleName: "Tony Scott",
+  heroTitleName: "Tony Scott,",
   heroDesignation: "Software Engineering Leader",
   heroDescriptions: `I’m an Atlanta based software engineer and engineering leader focused on building cloud scale distributed systems, AI powered platforms, and high performance engineering organizations. With experience spanning Microsoft, Spotify, Twitter, Delta Air Lines, and Travelport, I specialize in architecting resilient full stack and backend systems using Azure, C#, .NET, TypeScript, React, Elixir, distributed cloud architectures, and modern AI frameworks.
 
@@ -42,7 +42,7 @@ const Hero = () => {
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
             <div className="col-12 mt-1">
-                <a className="button" href="https://drive.google.com/file/d/1Aj4JS3slAdO9s4YbVd11sucqIzfzLTmn/view?usp=drive_link" download>
+                <a className="button" href="https://drive.google.com/file/d/1lYvyo2cwPEqwJDeavbFgZLDJTn4zj7b8/view?usp=sharing" download>
                   <span className="button-text">Download CV</span>
                   <span className="button-icon fa fa-download"></span>
                 </a>
