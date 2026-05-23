@@ -6,7 +6,7 @@ const heroContent = {
   heroImage: "/assets/img/hero/dark.jpg",
   heroMobileImage: heroImgMobile,
   heroTitleName: "Tony Scott",
-  heroDesignation: "Software Engineering Manager",
+  heroDesignation: "Software Engineering Leader",
   heroDescriptions: `I’m an Atlanta based software engineer and engineering leader focused on building cloud scale distributed systems, AI powered platforms, and high performance engineering organizations. With experience spanning Microsoft, Spotify, Twitter, Delta Air Lines, and Travelport, I specialize in architecting resilient full stack and backend systems using Azure, C#, .NET, TypeScript, React, Elixir, distributed cloud architectures, and modern AI frameworks.
 
   My recent work centers around agentic AI systems, secure vectorized knowledge platforms, orchestration frameworks, and AI assisted software development lifecycles leveraging Azure OpenAI, Semantic Kernel, MCP servers, Claude, Codex, and Copilot technologies. I thrive at the intersection of deep technical execution, platform architecture, operational excellence, and engineering leadership, whether driving hands on development as an IC or leading teams through complex large scale initiatives.
