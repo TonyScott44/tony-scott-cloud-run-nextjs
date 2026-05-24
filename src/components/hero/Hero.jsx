@@ -7,9 +7,7 @@ const heroContent = {
   heroMobileImage: heroImgMobile,
   heroTitleName: "Tony Scott,",
   heroDesignation: "Software Engineering Leader",
-  heroDescriptions: `I’m an Atlanta based software engineer and engineering leader focused on building cloud scale platforms, AI powered systems, and resilient developer experiences. With experience across Microsoft, Spotify, Twitter, Delta Air Lines, and Travelport, I specialize in backend and full stack engineering using Azure, C#, .NET, TypeScript, React, Elixir, and distributed cloud architectures.
-
-My recent work focuses on agentic AI systems, AI assisted engineering workflows, and intelligent support platforms powered by Azure OpenAI, Semantic Kernel, MCP servers, Claude, Codex, and Copilot technologies. I thrive in both hands on engineering and technical leadership roles, building scalable systems that drive real business impact.`,
+  heroDescriptions: `I’m an Atlanta based software engineer and engineering leader building AI powered cloud platforms and distributed systems at enterprise scale. I specialize in Azure, C#, .NET, TypeScript, React, Elixir, and modern AI technologies including Azure OpenAI, Semantic Kernel, MCP servers, Claude, Codex, and Copilot CLIs. Experienced across Microsoft, Spotify, Twitter, Delta Air Lines, and Travelport, I thrive in both hands on engineering and technical leadership roles.`,
   heroBtn: "more about me",
 };
 
